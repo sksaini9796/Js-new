@@ -36,3 +36,9 @@ const myFuntion = function(){
 }
 
 console.log(typeof anotherId);
+
+let user1 = {
+    userEmail : "user@google.com",
+    upi : "user@ybl",
+}
+
