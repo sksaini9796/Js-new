@@ -1,7 +1,7 @@
 const accountId = 123451
 let accountEmail = "abc@google.com"
 var accountPassword = "1234"
-accountCity = "Gurgaon"
+accountCity = "Gurgaon" 
 let accountState= "0001"
 
 accountEmail = "asb@gmail.com"
