@@ -6,7 +6,7 @@ let score = 10;
 // let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
 
-// console.log(valueInNumber);
+// console.log(valueInNumber)
 
 let isLoggedIn = 1;
 console.log(isLoggedIn);
