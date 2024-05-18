@@ -4,7 +4,7 @@ const tinderuser = new Object()
 tinderuser.id = "123abc";
 tinderuser.name = "Sammy";
 tinderuser.isLoggedIn = false;
-
+ 
 // console.log(tinderuser);
 
 const regularUser = {
