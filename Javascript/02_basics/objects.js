@@ -1,4 +1,4 @@
-// singleton
+// singleton 
 
 const mySym = Symbol("key1");
 
