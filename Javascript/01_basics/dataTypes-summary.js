@@ -1,4 +1,4 @@
-// Primitive
+// Primitive-
 // 7 Types : String, Number, Boolean, Null, Undefined, Symbol, BigInt
 
 const score = "100";
