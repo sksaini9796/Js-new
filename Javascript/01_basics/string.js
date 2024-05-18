@@ -2,7 +2,7 @@ const name = "Saurabh";
 const repoCount = 50;
 
 console.log(name + repoCount);
-
+ 
 console.log(`Hello My Name is ${name}`);
 
 // console.log(typeof String);
