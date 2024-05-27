@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dom Learning</title>
+    
+        <style>
+            .bg-black{
+                background-color: #212121;
+                color: white;
+            }
+        </style>
+    
+    </head>
+<body class="bg-black">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+    
+</body>
+    <script>
+        function addLanguage(LangNAme){
+            const li = document.createElement('li')
+            li.innerHTML = `${LangNAme}`
+            document.querySelector('.language').appendChild(li)
+        }
+        addLanguage("python")
+        addLanguage("Java")
+        addLanguage("a")
+
+
+        function addOptLanguage(langName){
+            const li = document.createElement('li')
+            li.appendChild(document.createTextNode(langName))
+            document.querySelector('.langauge').appendChild(li)
+            
+        }
+        addOptLanguage("abc")
+        addOptLanguage('Android');
+
+        // Edit
+
+        const secondLang = document.querySelector("li:nth-child(2)")
+        const newLi = document.createElement('li')
+        newLi.textContent = "abcd"
+        secondLang.replaceWith(newLi)
+
+        // Edit
+        const firstLang = document.querySelector("li:first-child")
+        firstLang.outerHTML = '<li>TypeScipt</li>'
+
+        // Remove
+        const lastLang = document.querySelector('li:Last-child')
+        lastLang.remove()
+
+    </script>
+</html>
